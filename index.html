@@ -1,34 +1,50 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <title>Password Generator Project</title>
+    <link rel="stylesheet" href="password.css" />
   </head>
+
   <body>
     <div class="wrapper">
       <header>
-        <h1>Password Generator</h1>
+        <i><h1>Password Generator Tool</h1></i>
       </header>
+
       <div class="card">
         <div class="card-header">
-          <h2>Generate a Password</h2>
+          <h2>Generate a Secure Password</h2>
         </div>
+
         <div class="card-body">
           <textarea
             readonly
             id="password"
-            placeholder="Your Secure Password"
+            placeholder="Your Secure Password here"
             aria-label="Generated Password"
           ></textarea>
         </div>
+
         <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
+          <button id="generate" class="btn">Click here to Generate Password</button>
         </div>
+        <u>Tips for Password Security: </u>
+        <li>
+          Do not share this password. 
+        </li>
+        <li>
+          Change your password every 90 days. 
+        </li>
+        <li>
+          Do not use the same password accross multiple applications. 
+        </li>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="password.js"></script>
   </body>
 </html>
