@@ -1,3 +1,11 @@
+
+//	Assignment/Homework-3: Password Generator
+//	Author: Taoufik Ammi
+//	Date: 06/24/2021 
+//	Course: UNC Coding BootCamp
+// Javascript File
+
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
